@@ -341,4 +341,6 @@ public:
 	uint32_t get_num_human_players() const {
 		return get_num_players() - get_num_bot_players();
 	}
+
+	void recover_from_crash() {}
 };
